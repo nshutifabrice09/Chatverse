@@ -1,2 +1,5 @@
-package com.backend.Chatverse.model;public class MediaFile {
+package com.backend.Chatverse.model;
+
+public class MediaFile {
+
 }
