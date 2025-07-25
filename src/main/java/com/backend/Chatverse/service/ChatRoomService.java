@@ -1,2 +1,4 @@
-package com.backend.Chatverse.service;public class ChatRoomService {
+package com.backend.Chatverse.service;
+
+public interface ChatRoomService {
 }
