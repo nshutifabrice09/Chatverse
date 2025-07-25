@@ -23,12 +23,12 @@ public class ChatRoomServiceImplementation implements ChatRoomService{
 
     @Override
     public List<ChatRoom> chatRoomList() {
-        return null;
+        return chatRoomRepository.findAll();
     }
 
     @Override
     public ChatRoom getChatRoomById(Long id) {
-        return null;
+        return chatRoomRepository.findChatRoomById(id);
     }
 
     @Override
