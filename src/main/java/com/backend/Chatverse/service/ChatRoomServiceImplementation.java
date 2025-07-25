@@ -1,2 +1,7 @@
-package com.backend.Chatverse.service;public class ChatRoomServiceImplementation {
+package com.backend.Chatverse.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ChatRoomServiceImplementation implements ChatRoomService{
 }
