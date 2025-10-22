@@ -1,6 +1,7 @@
 package com.backend.Chatverse.service;
 
 import com.backend.Chatverse.model.ChatRoom;
+import com.backend.Chatverse.model.User;
 import com.backend.Chatverse.repository.ChatRoomRepository;
 import com.backend.Chatverse.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,6 +44,6 @@ public class ChatRoomServiceImplementation implements ChatRoomService{
 
     @Override
     public void removeChatRoom(Long id) {
-
+        chatRoomRepository.deleteById(id);
     }
 }
